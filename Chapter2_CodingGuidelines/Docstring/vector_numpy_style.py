@@ -6,20 +6,16 @@ from functools import total_ordering
 @total_ordering
 class Vector2D:
     def __init__(self, x=0.0, y=0.0):
-        '''Create a vector2d object.
+        '''_summary_
 
-        Parameters
-        ----------
-        x : float, optional
-            The x-coordinate of the 2d vector, by default 0.0
-        y : float, optional
-            The y-coordinate of the 2d vector, by default 0.0
+        Args:
+            x (float, optional): _description_. Defaults to 0.0.
+            y (float, optional): _description_. Defaults to 0.0.
 
-        Raises
-        ------
-        TypeError
-            You must pass in int/float values for x and y!
+        Raises:
+            TypeError: _description_
         '''
+
         if isinstance(x, float) and isinstance(y, float):
             self.x = x
             self.y = y
@@ -34,6 +30,11 @@ class Vector2D:
         return f'vector.Vector2D({self.x}, {self.y})'
 
     def __str__(self):
+        '''_summary_
+
+        Returns:
+            _type_: _description_
+        '''
         return f'({self.x}, {self.y})'
 
     def __bool__(self):

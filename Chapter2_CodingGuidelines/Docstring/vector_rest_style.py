@@ -6,14 +6,15 @@ from functools import total_ordering
 @total_ordering
 class Vector2D:
     def __init__(self, x=0, y=0):
-        '''Create a vector2d object.
+        '''_summary_
 
-        :param x: [description], defaults to 0
+        :param x: _description_, defaults to 0
         :type x: int, optional
-        :param y: [description], defaults to 0
+        :param y: _description_, defaults to 0
         :type y: int, optional
-        :raises TypeError: [description]
+        :raises TypeError: _description_
         '''
+
         if isinstance(x, float) and isinstance(y, float):
             self.x = x
             self.y = y

@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipython = "*"
+ipykernel = "*"
+pytest = "*"
+codecov = "*"
+pytest-cov = "*"
+tox = "*"
+pre-commit = "*"
+pytest-benchmark = "*"
+snakeviz = "*"
+pyinstrument = "*"
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+autopep8 = "*"
+isort = "*"
+pydocstyle = "*"
+black = "*"
+mkdocs = "*"
+mkdocstrings = "*"
+mkdocs-material = "*"
+pygments = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

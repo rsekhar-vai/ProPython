@@ -16,7 +16,7 @@ def my_function_with_many_params(
     param6,
     param7,
     param8,
-    param9
+    param9,
 ):
     return "Hello World!"
 

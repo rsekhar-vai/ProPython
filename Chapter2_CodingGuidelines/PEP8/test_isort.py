@@ -12,5 +12,5 @@ from .my_lib import Object2
 from .my_lib import Object4
 
 
-print('Hey')
-print('yo')
+print("Hey")
+print("yo")

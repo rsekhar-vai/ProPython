@@ -9,7 +9,7 @@ from math import sqrt
 
 @total_ordering
 class Vector2D:
-    '''Vector2D class to perform simple vector operations.
+    '''_summary_
     '''
 
     def __init__(self, x=0, y=0):
