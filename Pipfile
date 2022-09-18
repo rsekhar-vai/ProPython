@@ -25,6 +25,7 @@ mkdocs = "*"
 mkdocstrings = "*"
 mkdocs-material = "*"
 pygments = "*"
+numpy = "*"
 
 [dev-packages]
 

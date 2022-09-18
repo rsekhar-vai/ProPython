@@ -11,14 +11,14 @@ NUM_RUNS = 3
 
 def test_addition_standard_bib() -> None:
     code_str = (
-'''
+        '''
 v1 = Vector2D(random.randint(-10, 10), random.randint(-10, 10))
 v2 = Vector2D(random.randint(-10, 10), random.randint(-10, 10))
 v3 = v1 + v2
 '''
     )
     import_str = (
-'''
+        '''
 import random
 from vector import Vector2D
 '''
